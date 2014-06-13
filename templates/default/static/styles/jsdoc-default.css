@@ -331,3 +331,86 @@ h6
 .disabled {
     color: #454545;
 }
+
+/****************************************************************/
+body{
+    font-size:12px;
+}
+dl dt, dl dd, .container-overview dt, .container-overview dd{
+    border: 1px solid #774100;
+}
+dl dd, .container-overview dd{
+    margin-left:0;
+    border-top:0;
+    position:relative;
+    top:-14px;
+    padding:10px;
+}
+h4.name{
+    background-color:#A35A00;
+    margin:0;
+    padding:5px 10px;
+    color:white;
+    font-size:140%;
+}
+.description{
+    margin-left:0;
+}
+h5{
+    margin-left:0;
+    font-size:110%;
+}
+.params, .param-desc, .description{
+    margin-left:20px;
+}
+dt.tag-source, dd.tag-source, .param-desc + dl dt, .param-desc + dl dd,
+h5+dl dt, h5+dl dd, .container-overview h5 + dl dt, .container-overview h5+dl dd{
+    border:0;
+    display:inline-block;
+    top:0;
+}
+dt.tag-source, dd.tag-source{
+    margin:0;
+    padding:0 10px 0 0;
+    width:auto;
+}
+dt.tag-source{
+    font-weight:bold;
+}
+.details{
+    border-left:0;
+    margin-left:20px;
+}
+.param-desc + dl dt, .param-desc + dl dd{
+    margin-top:5px;
+}
+.param-desc + dl dt, h5+dl dt, .container-overview h5+dl dt{
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 3px 5px 3px 0;
+}
+.param-desc + dl dt:after, h5+dl dt:after, .container-overview h5+dl dt:after{
+    content:": ";
+}
+.param-desc + dl dd, h5+dl dd, .container-overview h5+dl dd{
+    padding: 3px 5px;
+    left:-4px;
+}
+.param-desc p {
+    margin-bottom: 0;
+}
+ul.dummy{
+    padding-left:0;
+}
+ul.dummy li{
+    margin-left:0;
+    padding-top:0;
+}
+.class-description{
+    font-style:normal;
+    font-size:110%;
+    font-family: "DejaVu Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.signature, .type-signature{
+    font-weight:400;
+}
